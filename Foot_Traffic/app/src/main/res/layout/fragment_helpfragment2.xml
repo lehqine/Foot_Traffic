@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpfragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Can I schedule the date and time of delivery for my order?"
+        android:textColor="?attr/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:gravity="left"
+        android:text="Answer:"
+        android:textColor="?attr/text_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="175dp"
+        android:textColor="?attr/text_color"
+        android:text="Unfortunately, we are unable to support the scheduling of specific delivery dates and times
+at the moment." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="?attr/text_color"
+        android:text="If you are not available at the time of delivery:" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="?attr/text_color"
+        android:text="1. The courier will attempt delivery again based on their
+re-delivery policies." />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="?attr/text_color"
+        android:text="2. Your parcel may be placed at the nearby pickup location for you
+to pick it up. Usually, the parcel will be held at this location for a specific period of
+time. If it is not collected bt the end of this period, it may be returned to us or disposed of." />
+
+</FrameLayout>

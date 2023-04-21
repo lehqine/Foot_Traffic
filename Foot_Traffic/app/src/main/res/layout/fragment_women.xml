@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentWomen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_nikew"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_nike"
+            app:layout_constraintBottom_toTopOf="@+id/img_aldow"
+            app:layout_constraintEnd_toStartOf="@+id/img_adidasw"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_adidasw"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_adidas"
+            app:layout_constraintBottom_toTopOf="@+id/img_jimmychoow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_nikew"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_aldow"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_aldo"
+            app:layout_constraintBottom_toTopOf="@+id/img_salvotoreferragamow"
+            app:layout_constraintEnd_toStartOf="@+id/img_jimmychoow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_nikew" />
+
+        <ImageView
+            android:id="@+id/img_jimmychoow"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_jimmychoo"
+            app:layout_constraintBottom_toTopOf="@+id/img_sergiorossiw"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_aldow"
+            app:layout_constraintTop_toBottomOf="@+id/img_adidasw" />
+
+        <ImageView
+            android:id="@+id/img_salvotoreferragamow"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_salvatoreferragamo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/img_sergiorossiw"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_aldow" />
+
+        <ImageView
+            android:id="@+id/img_sergiorossiw"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/w_sergiorossi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_salvotoreferragamow"
+            app:layout_constraintTop_toBottomOf="@+id/img_jimmychoow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

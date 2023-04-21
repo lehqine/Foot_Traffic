@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpfragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Why is my order not assigned to any Delivery Partner? "
+        android:textColor="?attr/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:gravity="left"
+        android:text="Answer:"
+        android:textColor="?attr/text_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="30dp"
+        android:text="We truly understand how frustrated you are when your order was not
+assigned to any delivery partner for a long time. Some of the reason can be due to:"
+        android:textColor="?attr/text_color" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:text="1. Increasing number of requests (rush hour)"
+        android:textColor="?attr/text_color" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="30dp"
+        android:text="2. Bad weather conditions"
+        android:textColor="?attr/text_color" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="30dp"
+        android:text="3. Unstable connection"
+        android:textColor="?attr/text_color" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:text="If your order is not assigned to any delivery partner within 10-15 minutes,
+please contact to us by pressing button call below. Kindly note that your order will be auto-cancelled
+after 15 minutes if no delivery partner is assigned."
+        android:textColor="?attr/text_color" />
+
+</FrameLayout>

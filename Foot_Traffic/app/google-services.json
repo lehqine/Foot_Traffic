@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154677557200",
+    "project_id": "foot-traffic-1572a",
+    "storage_bucket": "foot-traffic-1572a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154677557200:android:fb7fc6e96c58af2cd1ebd5",
+        "android_client_info": {
+          "package_name": "com.example.foot_traffic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154677557200-r13gcurg9djcl9b3q4upvp8a7fecropc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPi9IsVsT7tEF5SHWwSJ2vjfkzbsOWDzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154677557200-r13gcurg9djcl9b3q4upvp8a7fecropc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

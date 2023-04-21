@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentKids">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_nikek"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/k_nike"
+            app:layout_constraintBottom_toTopOf="@+id/img_hushpuppies"
+            app:layout_constraintEnd_toStartOf="@+id/img_adidask"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_adidask"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/k_adidas"
+            app:layout_constraintBottom_toTopOf="@+id/img_toms"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_nikek"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_hushpuppies"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/k_hushpuppies"
+            app:layout_constraintBottom_toTopOf="@+id/img_keen"
+            app:layout_constraintEnd_toStartOf="@+id/img_toms"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_nikek" />
+
+        <ImageView
+            android:id="@+id/img_toms"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/k_toms"
+            app:layout_constraintBottom_toTopOf="@+id/img_keen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_hushpuppies"
+            app:layout_constraintTop_toBottomOf="@+id/img_adidask" />
+
+        <ImageView
+            android:id="@+id/img_keen"
+            android:layout_width="162dp"
+            android:layout_height="128dp"
+            android:src="@drawable/k_keen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_hushpuppies" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
